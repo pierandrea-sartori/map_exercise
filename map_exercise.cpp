@@ -24,7 +24,7 @@ main ()
       jj = m.erase (jj);
     }
     else {
-      jj++;
+      ++jj;
     }
   std::cout << "final contents" << std::endl;
   for (auto& jj : m)
